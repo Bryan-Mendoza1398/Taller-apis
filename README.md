@@ -45,6 +45,7 @@ Abrir el archivo index.html (o el archivo principal del proyecto) en un navegado
 
 No se requiere instalacion de dependencias ni servidor local para el funcionamiento basico de los proyectos.
 
-Autor
+Autores
 
 Bryan Rafael Mendoza Montes
+Mariana Rico Puerta
