@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App del Clima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="tarjeta">
+    <div class="buscador">
+      <input type="text" class="barra-busqueda" placeholder="Escribe una ciudad">
+      <button class="boton-buscar">
+        <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="buscar">
+      </button>
+    </div>
+
+    <div class="clima">
+      <img src="" class="icono-clima" alt="icono del clima">
+      <h1 class="temperatura">--°C</h1>
+      <h2 class="ciudad">Ciudad</h2>
+
+      <div class="detalles">
+        <div class="columna">
+          <img src="https://cdn-icons-png.flaticon.com/512/728/728093.png" alt="humedad">
+          <div>
+            <p class="humedad">0%</p>
+            <p>Humedad</p>
+          </div>
+        </div>
+
+        <div class="columna">
+          <img src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png" alt="viento">
+          <div>
+            <p class="viento">0 km/h</p>
+            <p>Viento</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="error">Ciudad no encontrada</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
